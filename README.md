@@ -2,7 +2,7 @@
 BASIC compiler built in rust
 
 # PROCESS
-The program starts by reading the input file located in src names "input.bas". The contents of this file are read into a string that the Lexer will analyse. The Parser then gets each token from the lexer and creates basic assembly code that would theoretically work on a processor. The process is as follows:
+The program starts by reading the input file located in src named "input.bas". The contents of this file are read into a string that the Lexer will analyse. The Parser then gets each token from the lexer and creates basic assembly code that would theoretically work on a processor. The process is as follows:
 
 1. Parser request a token from the Lexer
 2. Lexer then reads the next character or characters and creates an appropiate token for the given word or symbol
